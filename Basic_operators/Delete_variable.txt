@@ -1,0 +1,24 @@
+1. Delete variable:
+
+			number = 20;
+			print(number);
+			del number;
+			print(number);
+
+			a=b=10;
+
+			del a,b;
+
+			print a;
+    
+	2. 		x= "Hello Dear";
+			print(x);
+			print(x[1]);
+			print(x[1:3]);
+			print(x[1:7]);
+			print(x[-1]);
+			print(x[1:]);
+			print(x[:3]);
+			print (x * 2);
+			print (x+" Guhan");
+			

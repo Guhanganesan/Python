@@ -1,0 +1,68 @@
+	The input function to obtain information from the user.
+
+	print("Enter any value");
+
+	x=input();
+
+	print("Your iput is: "+x);
+
+	print("Type of Input is: ", type(x));
+
+--------- 
+
+	print("Enter first number");
+	x=input();
+	print("Enter Second Number");
+	y=input();
+	print("The sum of two number is", x+y);
+	
+---------
+	print("Enter first number");
+	x=input();
+	x=int(x);
+	print("Enter Second Number");
+	y=input();
+	y=int(y);
+	print("The sum of two number is", x+y);
+
+----------
+    x=input("Enter First Number");
+	y=input("Enter Second Number");
+	x=int(x);
+	y=int(y);
+	print("The sum of two number is: ",x+y);
+
+----------
+
+    x=input("Enter the input"); #ABCD
+    print(x[3]); # D
+	
+----------
+    x=input("Enter input String");
+	y=eval(x);
+	print(y);
+----------
+    x=eval(input("Please enter a string operations"));
+	print(x);
+----------
+    x,y=eval(input("Please enter two string operations"));
+    print(x+y);
+    Note:
+	Execute: Please enter two string operations10*10, 10*10
+             200
+			 
+----------
+    print(eval(input()));
+	
+	Execute: 20*10
+			 200
+----------
+
+
+
+
+
+
+
+
+    

@@ -1,0 +1,28 @@
+class College:
+
+    college_name="Ramnad Campus";
+    def func(self, dob):
+        self.dob=dob;
+        print(dob);
+
+    def __init__(self,name):
+        self.name=name;
+        print(name);
+
+class University(College):
+
+      univ_name="Anna Univ";
+
+      def __init__(self,name):
+          self.name=name;
+          print(name);
+      def getRank(self):
+          self.rank="Fisrt";
+          print(self.rank);
+obj = University("Anna");
+obj.getRank();
+print(obj.rank);
+obj.func("05/06/90");
+print(obj.college_name);
+print(obj.univ_name);
+-----------------------------------------

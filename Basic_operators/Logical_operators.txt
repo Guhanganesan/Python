@@ -1,0 +1,28 @@
+Logical Operator
+	 
+			x=10;
+			y=20;
+			print(x>y);
+			print(x<y);
+			print(x==y);
+			print(x===y);// ????
+			print(x<=y);
+			print(x>=y);
+			print(x!=y);
+			
+	        
+			x=10;
+			y=20;
+			z=30;
+			print(x>z and x<y);
+			print(x<z and x<y);
+			print(x>z or x<y);
+			
+			x=True;
+			y=False;
+			print(x);
+			print(x and y);
+			print(x or y);
+			print( not x);
+			print(not y);
+			

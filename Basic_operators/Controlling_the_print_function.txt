@@ -1,0 +1,11 @@
+print("Guhan", end='');
+print("anbu", end='');
+print();
+print("A");
+print("B");
+print("C");
+x,y,z=12,2,2018;
+print(x,y,z);
+print(x,y,z,sep=':');#Seperate
+print(x,y,z,sep='/');
+

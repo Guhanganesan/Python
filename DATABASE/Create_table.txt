@@ -1,0 +1,10 @@
+#open command prompt
+# use --> pip install pymysql
+
+import pymysql;
+db = pymysql.connect("localhost","root","","anbu");
+cursor = db.cursor();
+sql = "create table excel(name varchar(30))";
+cursor.execute(sql);
+cursor.close();
+--------------------------------------------

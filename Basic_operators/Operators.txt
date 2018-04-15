@@ -1,0 +1,192 @@
+------------ Python Operators ------------
+
+			x=10
+			y=20
+			z=x+y;
+			print (z);
+
+			// assigning the multiple variable
+
+			m=n=o=20;
+			print(m);
+			print(n);
+			print(o);
+
+			a,b,c=10,25.40, "Guhan";
+
+			print(a);
+			print(b);
+			print(c);
+
+--------------- Data types -------------
+
+   1. Delete variable:
+
+			number = 20;
+			print(number);
+			del number;
+			print(number);
+
+			a=b=10;
+
+			del a,b;
+
+			print a;
+    
+	2. 		x= "Hello Dear";
+			print(x);
+			print(x[1]);
+			print(x[1:3]);
+			print(x[1:7]);
+			print(x[-1]);
+			print(x[1:]);
+			print(x[:3]);
+			print (x * 2);
+			print (x+" Guhan");
+			
+			
+	3. 	    Python List ( Compund Data Types )
+	        //their elements and size can be changed,
+	        [],[:] --> slice operator
+			 +  --> concatenation operator
+			 *  --> repetition operator
+			 
+			 list1 = ["guhan",25,"anbu",25.50,"kathir"];
+
+			list2 = ["raja",23];
+
+			print(list1);
+			print(list1+list2);
+			print(list1[0]);
+			print(list1[0]+list2[0]);
+			print(list1[2:4]);
+			print(list1[2:]);
+			print(list[:3]);
+			print(list2*2);
+			
+	 4.     Tuples:
+	   
+	        Tuples are enclosed in parentheses  ( )  and cannot be updated. Tuples can be thought of as read-only lists.
+			
+			tuple1=(10,20,"guhan","anbu",35.40,"raja");
+			tuple2=(20,"kesav");
+			print(tuple1);
+			print(tuple1[0]);
+			print(tuple1+tuple2);
+			print(tuple1[2:4]);
+			print(tuple1[3:]);
+			print(tuple2*2);
+			
+			tuple1[0]=100;
+            print(tuple1);// not updated
+            print(tuple[:2]);//check
+
+     5.     Python Dictionaries
+	 
+	        x={"name":"Guhan","age":28,"mobile":97971,"native":"Ramnad"}
+			print(x);
+			print(x["name"]);
+			print(x.keys());
+			print(x.values());
+			
+	 6. Type Conversion:
+	 
+	        x="55";
+			y=int(x);
+			print(y+10);
+			m=35.5;
+			n=float(x);
+			print(m+n);
+			print(eval("30*56+20"));
+			
+	 7. Logical Operator
+	 
+			x=10;
+			y=20;
+			print(x>y);
+			print(x<y);
+			print(x==y);
+			print(x===y);// ????
+			print(x<=y);
+			print(x>=y);
+			print(x!=y);
+			
+	        
+			x=10;
+			y=20;
+			z=30;
+			print(x>z and x<y);
+			print(x<z and x<y);
+			print(x>z or x<y);
+			
+			x=True;
+			y=False;
+			print(x);
+			print(x and y);
+			print(x or y);
+			print( not x);
+			print(not y);
+			
+      8. Assignment Operator
+	  
+	        x=10;
+			x+=5;
+			print(x);
+			x-=3;
+			print(x);
+			++x;
+			--x;
+			print(x);
+			x/=2;
+			print(x);
+			x%=4;
+			print(x);
+			x**=5;
+			print(x);
+			x//=4;
+			print(x);
+			
+	   9. Special Operators
+	   
+	      (1). Identity Operators
+		     
+			x=10;
+			y=20;
+			name1="guhan";
+			name2="guhan";
+			array1=[1,4,5];
+			array2=[1,4,5];
+			print(x is x);
+			print(x is y);
+			print(x is not x);
+			print(y is not x);
+			print(name1 is name2);
+			print(name1 is not name2);
+			print(array1 is array2);
+			print(array1[0] is array2[0]);
+			
+	   (2). Memebership Operators
+	        
+			message="Hi dear firend";
+
+			print("dear" in message);
+
+			print("Dear" in message);
+
+			print("Dear" not in message);
+
+
+			
+			C:\Python27\python.exe; 
+			
+			
+    
+
+			
+			
+			
+
+
+
+
+

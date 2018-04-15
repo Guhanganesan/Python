@@ -1,0 +1,71 @@
+	from math import sqrt
+
+	x = eval(input("Enter any number"));
+	result = sqrt(x);
+	print(result);
+-------------------------------------
+    Q: calculate the square root for  2*x-2 if x=16.
+	
+	from math import sqrt
+
+	x=16;
+	y  = (2* x -2);
+	result = sqrt(y);
+
+	print(result);
+	
+--------------------------------------
+
+    from math import exp
+    x=16;
+    y  = exp(x);
+    print(y);
+	
+--------------------------------------
+
+	from math import log
+	x=1000;
+	y  = log(x);
+	print(y);
+	
+--------------------------------------
+
+	from math import pow
+	x=10;
+	y=2;
+	z  = pow(x,y);
+	print(z);
+
+--------------------------------------
+    from math import degrees
+	#degree = pi/180;
+
+	x=10;
+	z  = degrees(x);
+	print(z);
+--------------------------------------
+
+	from math import fabs
+	# calculate absolute values
+	x=-10;
+	z  = fabs(x);
+	print(z);
+--------------------------------------
+    from math import sin, pi
+	# calculate sin 90 degree
+	x=90;
+	radians= x * pi/180;
+
+	z  = sin(radians);
+
+	print(z);
+---------------------------------------
+    
+
+
+
+
+
+
+
+

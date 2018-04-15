@@ -1,0 +1,16 @@
+Tuples:
+	   
+	        Tuples are enclosed in parentheses  ( )  and cannot be updated. Tuples can be thought of as read-only lists.
+			
+			tuple1=(10,20,"guhan","anbu",35.40,"raja");
+			tuple2=(20,"kesav");
+			print(tuple1);
+			print(tuple1[0]);
+			print(tuple1+tuple2);
+			print(tuple1[2:4]);
+			print(tuple1[3:]);
+			print(tuple2*2);
+			
+			tuple1[0]=100;
+            print(tuple1);// not updated
+            print(tuple[:2]);//check

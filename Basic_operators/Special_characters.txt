@@ -1,0 +1,4 @@
+print("A\nB\nC"); #new line
+print("D\tE\tF"); #tab
+print("AB\bCD");  #backspace
+print("C:\\MyFolder\\MyFilename"); # backslash to escape the single qoutes

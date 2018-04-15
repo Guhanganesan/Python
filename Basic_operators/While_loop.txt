@@ -1,0 +1,5 @@
+x=eval(input("Enter a number to start"));
+while x<=10:
+    print(x);
+    x+=1;
+-----------------------------------------

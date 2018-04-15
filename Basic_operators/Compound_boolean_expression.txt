@@ -1,0 +1,83 @@
+	a=10;
+	b=20;
+	x= a==b and a!=b;
+	print(x);
+	x= a>b and a!=b;
+	print(x);
+	x= a<b and a!=b;
+	print(x);
+	x= a==b or a!=b;
+	print(x);
+	x= a>b or a!=b;
+	print(x);
+	x= a<b or a!=b;
+	print(x);
+----------------------
+    x=2;
+	if x==1 or 2 or 3:
+	print("Ok");
+----------------------
+
+    x=2;
+    if x==3 and 2 or 1:
+    print("Ok");
+	
+----------------------
+    x=2;
+	if x==3 and 2 and 1:
+    print("Ok");
+	else:
+    print("Not Ok");
+-----------------------
+    x=2;
+	if x>1:
+    if x==2:  print("Ok");
+	else:
+    print("Not Ok");
+-----------------------
+
+	x= eval(input("Please enter a value"));
+
+	if x>=0:
+		if x<=10:
+			print("The number in between 0 to 10");
+		else:
+			print("The number is lagre");
+	else:
+		print("The number is small");
+		
+------------------------
+      ( Multi-ways Decision)
+	  
+		x= eval(input("Please enter a value"));
+	if x==0:
+		print("Zero");
+	else:
+		if x==1:
+			print("ONE");
+		else:
+			if x==2:
+				print("TWO");
+			else:
+				if x==3:  print("THREE");
+				else: print("Not in the range");
+--------------------------
+x=eval(input("Enter any number"));
+if x<0:
+    print("Negative");
+elif x==1:
+    print("1");
+elif x==2:
+    print("2");
+elif x==3:
+    print("3");
+else:print("Number greater than 3");
+--------------------------
+x=eval(input("Enter any number"));
+print(-x if x<0 else x); # absolute value
+
+
+
+	
+   
+    

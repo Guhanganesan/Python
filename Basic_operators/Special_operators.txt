@@ -1,0 +1,18 @@
+Special Operators
+	   
+	      (1). Identity Operators
+		     
+			x=10;
+			y=20;
+			name1="guhan";
+			name2="guhan";
+			array1=[1,4,5];
+			array2=[1,4,5];
+			print(x is x);
+			print(x is y);
+			print(x is not x);
+			print(y is not x);
+			print(name1 is name2);
+			print(name1 is not name2);
+			print(array1 is array2);
+			print(array1[0] is array2[0]);

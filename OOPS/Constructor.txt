@@ -1,0 +1,15 @@
+class College:
+
+
+    def func(self, dob):
+        self.dob=dob;
+        print(dob);
+
+    def __init__(self,name):
+        self.name=name;
+        print(name);
+
+
+obj = College("Guhan");
+obj.func("05/06/90");
+------------------------------

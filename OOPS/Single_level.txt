@@ -1,0 +1,45 @@
+class College:
+
+    def __init__(self, first, last):
+        self.firstname = first;
+        self.lastname = last;
+
+class University(College):
+
+    def __init__(self, first, last, rank):
+        College.__init__(self,first, last);
+        self.rank = rank;
+        print(self.firstname);
+        print(self.lastname);
+        print(self.rank);
+
+x = College("Guhan", "Ganesan");
+y = University("Guhan", "Ganesan",1);
+-----------------------------------------
+
+class College:
+
+        name="Ramnad Campus";
+        def giveDegree(self, degree):
+            self.degree=degree;
+            print(degree);
+
+        def getFees(self,fees):
+            self.fees=fees;
+            print(fees);
+
+
+
+class University(College):
+
+        def provideRank(self,rank):
+            self.rank=rank;
+            print(rank);
+            
+
+clg = College();
+clg.getFees(2000);
+clg.giveDegree("B.E");
+obj = University();
+obj.provideRank(1);
+--------------------------------------------

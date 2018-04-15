@@ -1,0 +1,12 @@
+class College:
+    "This is my python oops class";
+    a=100;
+    def func(self):
+        print("Welcome");
+
+obj = College();
+print(obj.__class__);
+print(obj.__doc__);
+obj.func();
+print(obj.a);
+------------------------------------

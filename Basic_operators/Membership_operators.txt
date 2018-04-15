@@ -1,0 +1,12 @@
+Memebership Operators
+	        
+			message="Hi dear firend";
+
+			print("dear" in message);
+
+			print("Dear" in message);
+
+			print("Dear" not in message);
+
+
+			

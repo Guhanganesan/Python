@@ -1,0 +1,9 @@
+#store input numbers
+num1=input("Enter Number1");
+print(num1);
+num2=input("Enter Number 2");
+print(num2);
+print("The sum of two Numbers is =");
+#add input numbers
+sum = float(num1)+float(num2);
+print(sum);

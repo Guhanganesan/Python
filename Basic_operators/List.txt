@@ -1,0 +1,18 @@
+ Python List ( Compund Data Types )
+	        //their elements and size can be changed,
+	        [],[:] --> slice operator
+			 +  --> concatenation operator
+			 *  --> repetition operator
+			 
+			 list1 = ["guhan",25,"anbu",25.50,"kathir"];
+
+			list2 = ["raja",23];
+
+			print(list1);
+			print(list1+list2);
+			print(list1[0]);
+			print(list1[0]+list2[0]);
+			print(list1[2:4]);
+			print(list1[2:]);
+			print(list[:3]);
+			print(list2*2);

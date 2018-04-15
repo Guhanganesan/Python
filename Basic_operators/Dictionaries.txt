@@ -1,0 +1,7 @@
+Python Dictionaries
+	 
+	        x={"name":"Guhan","age":28,"mobile":97971,"native":"Ramnad"}
+			print(x);
+			print(x["name"]);
+			print(x.keys());
+			print(x.values());

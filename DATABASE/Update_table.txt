@@ -1,0 +1,13 @@
+import pymysql;
+db = pymysql.connect("localhost","root","","anbu");
+cursor = db.cursor();
+sql=  "update ex3 set mob=9898 where user='Guha'";
+try:
+   cursor.execute(sql);
+   db.commit();
+   print("Sucess");
+except:
+    db.rollback();
+    print("Check");
+db.close();
+------------------------------------------------------

@@ -1,0 +1,9 @@
+Type Conversion:
+	 
+	        x="55";
+			y=int(x);
+			print(y+10);
+			m=35.5;
+			n=float(x);
+			print(m+n);
+			print(eval("30*56+20"));
