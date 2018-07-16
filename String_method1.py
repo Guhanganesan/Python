@@ -44,3 +44,72 @@ B
 C
 D
 The number od a is: 3
+    
+    
+ data =[20,30,40,45,5.5,6,3,22]
+sum=sum(data)
+print(sum) # 171.5
+
+slice=data[3:7]
+print(slice) # [45, 5.5, 6, 3]
+
+data=["abn","ghjt","df"]
+max = max(data)
+print(max) # ghjt
+
+length=len(data)
+print(length) #3
+
+def calculateSquare(n):
+  return n*n
+
+numbers = (1, 2, 3, 4)
+result = map(calculateSquare, numbers)
+#print(result)
+
+# converting map object to set
+numbersSquare = set(result)
+print(numbersSquare) #{16, 1, 4, 9}
+
+numbers = (1, 2, 3, 4)
+result = map(lambda x: x*x, numbers)
+numbersSquare = set(result)
+print(numbersSquare)  #{16, 1, 4, 9}
+print(list(result))
+
+
+num1 = [4, 5, 6]
+num2 = [5, 6, 7]
+
+result = map(lambda n1, n2: n1+n2, num1, num2)
+print(list(result))  #[9, 11, 13]
+
+numbers = (1, 2, 3, 4)
+numbers=iter(numbers)
+print(next(numbers))
+print(next(numbers))
+print(next(numbers))
+
+Result:
+    171.5
+[45, 5.5, 6, 3]
+ghjt
+3
+{16, 1, 4, 9}
+{16, 1, 4, 9}
+[]
+[9, 11, 13]
+1
+2
+3
+
+
+
+
+
+
+
+
+
+
+
