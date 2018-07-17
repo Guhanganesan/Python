@@ -62,22 +62,24 @@ Result:
 	
 			
 #.4 Max occuring character in String
-	x = str(input("Enter a String "))
+	x ="Kannan"
 	length=len(x)
 	count=0
 	freq=''
 	max=1
 	list=[]
 	for i in range(0,length):
+
 			for j in range(0, length):
-				if x[i]==x[j]:
-					freq=freq+x[i]
+					if x[i]==x[j]:
+					 freq=freq+x[i]
 			list.append(freq)
 			freq=''
 
 	print(list)
-	print(type(list))
-	print (max(list)) #Error int Object
+	list = set(list) # remove duplicates and gives random values
+	print(list)
+	print(max(list))
 	
 # 5. Remove duplicates in string
 x=''
