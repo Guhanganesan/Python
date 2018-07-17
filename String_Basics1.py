@@ -79,6 +79,27 @@ Result:
 	print(type(list))
 	print (max(list)) #Error int Object
 	
+# 5. Remove duplicates in string
+x=''
+name="abacdcda"
+list=[]
+length=len(name)
+for i in range(0,length):
+    for j in range(0,length):
+     if name[i]==name[j]:
+         x=x+name[i]
+         list.append(x)
+     x=''
+print(list)
+list=set(list)
+list=''.join(list)
+print(list)
+
+Result:
+	['a', 'a', 'a', 'b', 'a', 'a', 'a', 'c', 'c', 'd', 'd', 'c', 'c', 'd', 'd', 'a', 'a', 'a']
+bcda
+
+
 
 	
 
