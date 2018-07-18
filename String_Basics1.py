@@ -102,6 +102,27 @@ Result:
 bcda
 
 
+#6. Print a string in aplhabetical order
+
+	x = "Hi dear friend how are you"
+	x=x.split()
+	print(x)
+	x.sort()
+	print(x)
+	for word in x:
+	    print(word)
+Result:
+	['Hi', 'dear', 'friend', 'how', 'are', 'you']
+['Hi', 'are', 'dear', 'friend', 'how', 'you']
+Hi
+are
+dear
+friend
+how
+you
+
+
+
 
 	
 
