@@ -35,3 +35,22 @@ Result:
 30 200 10
 
 
+
+def add(x,y):
+    return x+y
+def mul(x,y):
+    return x*y
+def sub(x,y):
+    return  x-y
+
+def main(a,b,c):
+
+    print(a,b,c)
+    
+main(add(20,10),mul(20,10),sub(20,10))
+
+Result:
+	30 200 10
+	
+	
+
