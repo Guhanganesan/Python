@@ -15,6 +15,12 @@ val=4
 for i in range(val, 0, -1):
     print(i)
 
+#.3
+val=4
+for i in range(4,-1, -1):
+    print(i)
+
+
 #.Average for 5 numbers
 
 def main():
@@ -27,6 +33,8 @@ def main():
     print(avg)
 main()
 
+
+
 Result:
 
 6
@@ -34,6 +42,11 @@ Result:
 3
 2
 1
+4
+3
+2
+1
+0
 Enter how many numbers5
 Enter Number: 1: 12
 Enter Number: 2: 13
@@ -41,4 +54,5 @@ Enter Number: 3: 14
 Enter Number: 4: 15
 Enter Number: 5: 16
 14.0
+
 
