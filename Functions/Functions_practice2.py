@@ -42,8 +42,35 @@ Result:
       Enter second number4
       3.0
       
-     
+#Mini Calculator using functions
 
+def add(a,b):
+    return  a+b
+def sub(a,b):
+    return a-b
+def mul(a,b):
+    return a*b
+def div(a,b):
+    return a/b
+def main():
+    x=input("enter choice(+/-/*/%): ")
+    a=int(input("enter first number"))
+    b=int(input("Enter second number"))
+    if x=="+":
+        print(add(a,b))
+    elif x=="-":
+        print(sub(a,b))
+    elif x=="*":
+        print(mul(a,b))
+    elif x=="%":
+        print(div(a,b))
+main()
+
+Result:
+      enter choice(+/-/*/%): +
+      enter first number12
+      Enter second number12
+      24
       
       
       
