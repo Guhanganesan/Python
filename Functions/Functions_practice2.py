@@ -20,3 +20,49 @@ Result:-
     Enter Number: 3: 14
     Enter Number: 4: 15
     Avg:  13.5
+
+#Mini Calculator
+def main():
+    x=input("enter choice(+/-/*/%): ")
+    a=int(input("enter first number"))
+    b=int(input("Enter second number"))
+    if x=="+":
+        print(a+b)
+    elif x=="-":
+        print(a-b)
+    elif x=="*":
+        print(a*b)
+    elif x=="%":
+        print(a/b)
+main()
+
+Result:
+      enter choice(+/-/*/%): %
+      enter first number12
+      Enter second number4
+      3.0
+      
+     
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
