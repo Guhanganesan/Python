@@ -22,6 +22,13 @@ for i, j in enumerate(t1, 5):
 t1=(2,5,3,1,4)
 print(sorted(t1))
 
+t1=(1,2,3,(4,5))
+print(t1)
+t2=(1,2,3,(5,4))
+print(t1==t2) #False, True if 4,5 and 4,5 for both sub set
+
+
+
 Result:
     6
     (1, 2, 3, 4, 5, 6)
@@ -37,6 +44,8 @@ Result:
     5 1
     6 2
     7 3
-    [1, 2, 3, 4, 5
+    [1, 2, 3, 4, 5]
+    (1, 2, 3, (4, 5))
+    False
 
 
