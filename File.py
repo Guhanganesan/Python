@@ -21,4 +21,13 @@ print(s)
 print(f.name)
 
 
+myfile.txt:-
+    
+Version of PHP?
+What is session?
+What is cookie?
+
+
+
+
 
