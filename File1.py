@@ -18,3 +18,18 @@ Friend
 How
 Are
 you
+------------------------------------------------------
+
+path="C:\\test\\test.txt"
+#file_open=open(path,'r')
+#print(file_open.name)
+#print(file_open.mode)
+#print(file_open.closed)
+str="Hi"
+while str!="exit":
+    str=input("Enter the text you want")
+    file_open = open(path, 'w')
+    file_open.write(str)
+------------------------------------------------------
+
+
