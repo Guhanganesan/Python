@@ -1,15 +1,18 @@
-class College:
+class Training:
+   name="Guhan"
+   age=28
+   def teach(self):
+          print("He is teaching")
+   def __init__(self): #It will call first
+          print("Hi is Mr. Guhan")
+obj = Training()
+obj.teach()
+print(obj.name)
+print(obj.age)
 
+Result:
 
-    def func(self, dob):
-        self.dob=dob;
-        print(dob);
-
-    def __init__(self,name):
-        self.name=name;
-        print(name);
-
-
-obj = College("Guhan");
-obj.func("05/06/90");
-------------------------------
+Hi is Mr. Guhan
+He is teaching
+Guhan
+28
