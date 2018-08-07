@@ -1,12 +1,20 @@
-class College:
+class Siva:
+   name="Siva Kumar"
+   age=75
+   def act(self):
+          print("he is acting")
+obj = Siva()
+obj.act()
+print(obj.name)
+print(obj.age)
 
-    def __init__(self,name):
-        self.name=name;
-        print(name);
+#Assigning the property
 
-    def func(self):
-        print("Welcome");
+obj.age=76;
+print(obj.age)
 
-obj = College("Guhan");
-obj.func();
----------------------------------
+Result:
+he is acting
+Siva Kumar
+75
+76
