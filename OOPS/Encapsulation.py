@@ -1,3 +1,4 @@
+#Encapsulation
 class Training:
   def __init__(self, name, friend, age):
        self._public=name
