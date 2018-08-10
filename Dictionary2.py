@@ -1,36 +1,72 @@
-details={
-    'name':'guhan',
-    'age':28,
-    'mob':98698,
-    'dob':'05/06/90'
+data={
+    'name':'keerthana',
+    'mobile':3878397,
+    'age':20
 }
 
-for key in details:
+print(data)
+
+for key in data:
     print(key)
-for value in details.values():
+L=[]
+for value in data.values():
+    #print(value)
+    L.append(value)
+print(L)
+
+for value in data.keys():
     print(value)
 
-mob ={
-    'n1':98689,
-    'n2':87588,
-    'n3':54356
+print(data.get('name'))
+
+data['name']="Pallavi";
+
+print(data)
+
+m = data.pop('name')
+
+print(m)
+
+#print(data)
+
+ex={'stree1':'south'}
+data.update(ex)
+
+#print(data)
+
+
+details={
+    'name':'keerthana',
+    'mobile':837096,
+    'age':20,
+    'address':{
+        'D/NO':'23',
+        'Street':'North'
+    }
 }
 
-sort = sorted(mob.values())
-for value in range(0, len(sort)):
-    print(sort[value])
-    
-    
-Result:-
+print(details['mobile'])
+print(details['address']['Street'])
 
+for key, value in details.items():
+    print(key, value)
+    
+ Result:-
+    
+{'name': 'keerthana', 'mobile': 9940068591, 'age': 20}
 name
+mobile
 age
-mob
-dob
-guhan
-28
-98698
-05/06/90
-54356
-87588
-98689
+['keerthana', 9940068591, 20]
+name
+mobile
+age
+keerthana
+{'name': 'Pallavi', 'mobile': 9940068591, 'age': 20}
+Pallavi
+9940068591
+North
+name keerthana
+mobile 9940068591
+age 20
+address {'D/NO': '23', 'Street': 'North'}
