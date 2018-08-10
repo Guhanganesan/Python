@@ -52,21 +52,20 @@ for key, value in details.items():
     print(key, value)
     
  Result:-
-    
-{'name': 'keerthana', 'mobile': 9940068591, 'age': 20}
+{'name': 'keerthana', 'mobile': 3878397, 'age': 20}
 name
 mobile
 age
-['keerthana', 9940068591, 20]
+['keerthana', 3878397, 20]
 name
 mobile
 age
 keerthana
-{'name': 'Pallavi', 'mobile': 9940068591, 'age': 20}
+{'name': 'Pallavi', 'mobile': 3878397, 'age': 20}
 Pallavi
-9940068591
+837096
 North
 name keerthana
-mobile 9940068591
+mobile 837096
 age 20
 address {'D/NO': '23', 'Street': 'North'}
