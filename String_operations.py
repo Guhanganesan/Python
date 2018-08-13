@@ -9,6 +9,19 @@ print(name[:-1])
 print(name[-4:-1])
 print(name[1:6])
 
+
+Result:-
+       
+G
+uhan Ganesan
+uhan Ganesan
+Guhan Ganesan
+nasenaG nahuG
+n
+Guhan Ganesa
+esa
+uhan 
+#---------------------------------
 star="*"
 fname="Guhan"
 lname="Ganesan"
@@ -41,19 +54,6 @@ for char in "Guhan":
         
         
 Result:
-
-       
-G
-uhan Ganesan
-uhan Ganesan
-Guhan Ganesan
-nasenaG nahuG
-n
-Guhan Ganesa
-esa
-uhan 
-
-       
 GuhanGanesan
 Guhan Ganesan
 Guhan
