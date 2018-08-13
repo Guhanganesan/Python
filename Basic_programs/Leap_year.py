@@ -10,6 +10,12 @@ if num%4==0:
 else:
     print("Not leap year")
     
+    
+if  num%4==0 and num%100!=0 or num%400==0:
+    print("Leap year")
+else:
+    print("Not Leap year")
+    
 Result:-
 
 Enter any number1700
