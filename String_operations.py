@@ -44,7 +44,7 @@ if 'h' not in "Guhan":
 else:
     print("False")
 
-count=0
+
 for char in "Guhan":
     if(char=='G'):
         print("Hi")
