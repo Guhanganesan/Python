@@ -41,7 +41,7 @@ print(len(s))
 print("abcd".__contains__("abc")) #true
 print("abcd".__contains__("wer")) #False
 print("abcd".__contains__("wat")) #False
-print("abcd".__contains__("ab"))  #False
+print("abcd".__contains__("ab"))  #True
 print("abcd".__contains__("ab12")) #False
 
 i=10
