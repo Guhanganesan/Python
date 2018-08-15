@@ -62,13 +62,12 @@ Result:
 	
 			
 #.4 Max occuring character in String
-	x ="Kannan"
-	length=len(x)
-	count=0
-	freq=''
-	max=1
-	list=[]
-	for i in range(0,length):
+x ="Kannan"
+length=len(x)
+count=0
+freq=''
+list=[]
+for i in range(0,length):
 
 			for j in range(0, length):
 					if x[i]==x[j]:
@@ -76,10 +75,13 @@ Result:
 			list.append(freq)
 			freq=''
 
-	print(list)
-	list = set(list) # remove duplicates and gives random values
-	print(list)
-	print(max(list))
+print(list)
+set = set(list)
+print(max(set))
+
+Result:-
+['K', 'aa', 'nnn', 'nnn', 'aa', 'nnn']
+nnn
 	
 # 5. Remove duplicates in string
 x=''
