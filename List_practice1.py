@@ -92,37 +92,29 @@ The Elements are:
 
 #-----------------------------------------------------------------
   
+#Remove the element
+L=["Tamil","English","Maths","Science"]
+length=len(L)
+result="The Elements are:"
+remove=input("Enter the element to remove")
+for i in range(0,length):
+     if remove==L[i]:
+         L.pop(i)
+         break
+     if remove!= L[i]:
+         continue
+print(result)
+print(L)
 
-list=[]
-sum=0
-for i in range(0,3):
-    for j in range(0,3):
-        list.append((i+j)**2)
-print(list)
+Result:-
+Enter the element to removeEnglish
+The Elements are:
+['Tamil', 'Maths', 'Science']
 
-#Ans:[0, 1, 4, 1, 4, 9, 4, 9, 16]
-
-list=[[2,5,7,8],[2,3,4,5],[4,3,2,1]]
-sum=0
-for i in range(0,3):
-    for j in range(0,3):
-        sum=sum+list[i][j]
-        
-print(sum)
-
-#Ans:32
-
-list=[[2,5,7,8],[2,3,4,5],[4,3,2,1]]
-sum=0
-for i in range(0,3):
-    for j in range(0,3):
-        if list[i][j]==2 or list[i][j]==3:
-            sum=sum+list[i][j]
-
-print(sum)
-
-#Ans:12
+Result:-
+Enter the element to removeBiology
+The Elements are:
+['Tamil', 'English', 'Maths', 'Science']
+#----------------------------------------------------------------
 
 
-    
-    
