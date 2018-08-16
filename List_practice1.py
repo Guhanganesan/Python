@@ -61,10 +61,36 @@ The element English  is located at  1 th position
 
 #------------------------------------------------------------
 
+#Replace the element at specified location
+L=["Tamil","English","Maths","Science"]
+length=len(L)
+index=int(input("Enter the index value"))
+result="The Elements are:"
+replace=input("Enter the element to replace")
+for i in range(0,length):
+     if replace!=L[index]:
+         L[index]=replace
+         break
+     if replace == L[index]:
+         result="The same element is found, Try to add another"
+         continue
+print(result)
+print(L)
 
+Result:-
+Enter the index value2
+Enter the element to replaceMaths
+The same element is found, Try to add another
+['Tamil', 'English', 'Maths', 'Science']
 
+Result:-
+    
+Enter the index value2
+Enter the element to replacePhysics
+The Elements are:
+['Tamil', 'English', 'Physics', 'Science']
 
-
+#-----------------------------------------------------------------
   
 
 list=[]
