@@ -22,6 +22,31 @@ Enter Number: 4: 15
 Enter Number: 5: 16
 Avg:  14.0
 
+    
+# List get even and ood values fro list
+L=["Tamil","English","Maths","Science","Social"]
+length=len(L)
+Even=[]
+Odd=[]
+for i in range(0,length):
+    if  i%2==0:
+        Even.append(L[i])
+    if  i%2!=0:
+        Odd.append(L[i])
+print("Even Elements:")
+print(Even)
+print("Odd Elements:")
+print(Odd)
+
+Result:
+    
+Even Elements:
+['Tamil', 'Maths', 'Social']
+Odd Elements:
+['English', 'Science']
+
+#-----------------------------------------------------------
+  
 
 list=[]
 sum=0
