@@ -46,6 +46,25 @@ Odd Elements:
 ['English', 'Science']
 
 #-----------------------------------------------------------
+
+#Find index of list
+L=["Tamil","English","Maths","Science"]
+length=len(L)
+search=input("Enter which element to get the index value")
+for i in range(0,length):
+     if search==L[i]:
+         print("The element",L[i]," is located at ",i,"th position")
+         break
+ #Result
+Enter which element to get the index valueEnglish
+The element English  is located at  1 th position
+
+#------------------------------------------------------------
+
+
+
+
+
   
 
 list=[]
