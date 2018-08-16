@@ -134,6 +134,38 @@ Enter ending index4
 ['Maths', 'Science', 'Social']
 
 #----------------------------------------------------------------
+#Insert list of elements in a given range
+L=["Tamil","English","Maths","Science","Social","Biology"]
+start=int(input("Enter starting index"))
+end=int(input("Enter ending index"))
+length=len(L)
+new_list=[]
+
+test=start
+while(start<=end):
+    print("Enter element for index", start)
+    get = input()
+    new_list.append(get)
+    start+=1
+j=0
+for i in range(0,length):
+    if(i>=test and i<=end):
+        L[i]=new_list[j]
+        test=test+1
+        j=j+1
+print(L)
+
+Result:-
+Enter starting index2
+Enter ending index4
+Enter element for index 2
+Ethics
+Enter element for index 3
+Zoology
+Enter element for index 4
+Politics
+['Tamil', 'English', 'Ethics', 'Zoology', 'Politics', 'Biology']
+#--------------------------------------------------------------------
 
 
 
