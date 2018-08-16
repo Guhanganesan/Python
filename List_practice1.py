@@ -116,5 +116,25 @@ Enter the element to removeBiology
 The Elements are:
 ['Tamil', 'English', 'Maths', 'Science']
 #----------------------------------------------------------------
+#Get list of values from given range
+L=["Tamil","English","Maths","Science","Social","Biology"]
+start=int(input("Enter starting index"))
+end=int(input("Enter ending index"))
+length=len(L)
+new_list=[]
+for i in range(0,length):
+    if(i>=start and i<=end):
+        new_list.append(L[i])
+        start+1
+print(new_list)
+
+Result:-
+Enter starting index2
+Enter ending index4
+['Maths', 'Science', 'Social']
+
+#----------------------------------------------------------------
+
+
 
 
