@@ -166,7 +166,26 @@ Enter element for index 4
 Politics
 ['Tamil', 'English', 'Ethics', 'Zoology', 'Politics', 'Biology']
 #--------------------------------------------------------------------
+# Remove range of elements in a list
 
+L=["Tamil","English","Maths","Science","Social","Biology"]
+no_of=int(input("Enter how many elements you want to remove"))
+start=int(input("Enter starting index"))
+length=len(L)
+count=1
+for i in range(0,length):
+    if( start<=i and count<=no_of):
+        L.pop(start)
+        length=length-1
+        count=count+1
+print(L)
+
+Result:-
+Enter how many elements you want to remove3
+Enter starting index1
+['Tamil', 'Social', 'Biology']
+
+#-----------------------------------------------------------------------
 
 
 
