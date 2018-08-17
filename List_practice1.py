@@ -186,6 +186,44 @@ Enter starting index1
 ['Tamil', 'Social', 'Biology']
 
 #-----------------------------------------------------------------------
+#Check how many times repeates the duplicate values
+L=[1,3,2,3,4,2,5,3,6,3,7]
+length=len(L)
+add_arr=[]
+count_arr=[]
+count=0
+add_value=0
+for i in range(0,length):
+    for j in range(0,length):
+        if add_arr.__contains__(L[i])==False:
+            if L[i]==L[j]:
+                count=count+1
+        add_value=L[i]
+    add_arr.append(add_value)
+    count_arr.append(count)
+    count=0
+
+print(count_arr) #[1, 4, 2, 0, 1, 0, 1, 0, 1, 0, 1]
+print(add_arr)   #[1, 3, 2, 3, 4, 2, 5, 3, 6, 3, 7]
+
+great=0
+index=0
+for k in range(0,len(count_arr)):
+    if great<count_arr[k]:
+        great=count_arr[k]
+        index=k
+print(add_arr[index],"is ",great," times repeated ");
+
+Result:-
+[1, 4, 2, 0, 1, 0, 1, 0, 1, 0, 1]
+[1, 3, 2, 3, 4, 2, 5, 3, 6, 3, 7]
+3 is  4  times repeated 
+#-------------------------------------------------------------
+
+
+
+
+
 
 
 
