@@ -219,6 +219,25 @@ Result:-
 [1, 3, 2, 3, 4, 2, 5, 3, 6, 3, 7]
 3 is  4  times repeated 
 #-------------------------------------------------------------
+#To find second largest in a list
+L=[2,5,1,3,6,8,7,9,4]
+length=len(L)
+greatest=0
+new_list=[]
+for i in range(0,length):
+    if greatest<L[i]:
+       greatest=L[i]
+       new_list.append(greatest)
+print(greatest)
+print(new_list)
+new_length=len(new_list)
+print(new_list[new_length-2])
+
+Result:-
+9
+[2, 5, 6, 8, 9]
+8
+#-----------------------------------------------------------
 
 
 
