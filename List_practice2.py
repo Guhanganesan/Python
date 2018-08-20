@@ -13,6 +13,38 @@ Result:
   ['Raghava', 'Guhan']
   ['Guhan', 'Raghava']
   Guhan Raghava
+#-----------------------------------------------------------
+#Total of 1 student marks
+L=[]
+i = int(input("Enter how many marks"))
+sum=0.0
+for k in range(0,i):
+    print("Enter mark: ",k+1)
+    x=int(input())
+    L.append(x)
+for j in range(0, len(L)):
+    sum=sum+L[j]
+print(sum)
+
+Result:-
+Enter how many marks5
+Enter mark:  1
+13
+Enter mark:  2
+12
+Enter mark:  3
+13
+Enter mark:  4
+12
+Enter mark:  5
+13
+63.0
+
+#------------------------------------------------------------------
+
+
+
+
 
 list=[]
 sum=0
