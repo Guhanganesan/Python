@@ -1,13 +1,18 @@
-import pymysql;
-db = pymysql.connect("localhost","root","","anbu");
-cursor = db.cursor();
-sql=  "update ex3 set mob=9898 where user='Guha'";
-try:
-   cursor.execute(sql);
-   db.commit();
-   print("Sucess");
-except:
-    db.rollback();
-    print("Check");
-db.close();
-------------------------------------------------------
+import mysql.connector
+mydb = mysql.connector.connect(
+  host="localhost",
+  user="root",
+  passwd="",
+  database="pythondb"
+)
+mycursor = mydb.cursor()
+sql = "update details set mobile=9867 where name='guhan'"
+mycursor.execute(sql)
+mydb.commit()
+print(mycursor.rowcount, "record(s) affected")
+
+Result:-
+1 record(s) affected
+
+name  age  mobile
+Guhan 28    9867
