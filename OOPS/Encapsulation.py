@@ -19,4 +19,22 @@ Result:-
 Add
 get values here
 
+#---------------------------------------------------------------
+
+class Periyar:
+      __name="Priyar"
+      def add(self):
+          print("Add")
+
+      def __getValues(self):
+          print("Get Values")
+          self.__name
+obj = Periyar()
+obj.add()
+obj.__name # cannot call private
+
+#--------------------------------------------------------------
+
+
+
 
