@@ -1,10 +1,10 @@
-#open command prompt
-# use --> pip install pymysql
+import mysql.connector
+mydb = mysql.connector.connect(
+  host="localhost",
+  user="root",
+  passwd="",
+  database="pythondb"
+)
+mycursor = mydb.cursor()
+mycursor.execute("CREATE TABLE details (name varchar(30), age varchar(30), mobile varchar(30))")
 
-import pymysql;
-db = pymysql.connect("localhost","root","","anbu");
-cursor = db.cursor();
-sql = "create table excel(name varchar(30))";
-cursor.execute(sql);
-cursor.close();
---------------------------------------------
