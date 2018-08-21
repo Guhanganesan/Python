@@ -1,30 +1,22 @@
-class Training:
-  def __init__(self, name, friend, age):
-       self._public=name
-       self._protected=friend
-       self._private=age
-  def getValues(self):
-      print(self._public)
-      print(self._protected)
-      print(self._private)
-obj = Training("Muthu","Guhan",32)
-#obj.getValues()
-print(obj._private)
+class Periyar:
+      def add(self):
+          print("Add")
 
-class Branch(Training):
-       def check(self):
-           print(self._public)
-           print(self._protected)
-           print(self._private)
-obj1 = Branch(2,3,4)
-#print(obj1.getValues())
-obj1.check()
-print(obj1._private)
+      def __getValues(self):
+          print("Get Values")
+obj = Periyar()
+obj.add()
+#obj.__getValues() Can not access private method
+
+class Anna:
+     def __init__(self):
+          self.__getValue() # call private method within the class
+     def __getValue(self):
+         print("get values here")
+obj1 = Anna()
 
 Result:-
+Add
+get values here
 
-32
-2
-3
-4
-4
+
