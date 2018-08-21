@@ -1,21 +1,18 @@
-import pymysql;
-db = pymysql.connect("localhost","root","","anbu");
-cursor = db.cursor();
-sql=  "insert into ex3(name,user,pass,mob)values('kathir','root',54321,975689)";
-try:
-   cursor.execute(sql);
-   db.commit();
-   print("Sucess");
-except:
-    db.rollback();
-    print("Check");
-db.close();
----------------------------------------------------------------
+import mysql.connector
+mydb = mysql.connector.connect(
+  host="localhost",
+  user="root",
+  passwd="",
+  database="pythondb"
+)
+mycursor = mydb.cursor()
+sql = "insert into details (name, age, mobile) values ('Guhan', '28',979181)"
+mycursor.execute(sql)
+mydb.commit()
+print(mycursor.rowcount, "record inserted.")
 
+#----------------------------------------------------
 
+Result:-
 
-
-
-
-
-
+1 record inserted.
