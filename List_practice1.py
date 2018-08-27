@@ -239,7 +239,33 @@ Result:-
 8
 #-----------------------------------------------------------
 
+#Remove Duplicates in a list
 
+L=[4,3,2,3,4,2,5,6,5]
+length=len(L) # if extra 1 duplicate at initial
+m=length
+i=0
+while(i<=length):
+    for j in range(i+1, m):
+        if L[i] == L[j]:
+             L.pop(j)
+             i=i-1
+             #length = length - 1
+             m=m-1
+             print(L)
+             break
+    i=i+1
+print("After removed duplicates: ")
+print(L)
+
+Result:
+    
+[4, 3, 2, 3, 2, 5, 6, 5]
+[4, 3, 2, 2, 5, 6, 5]
+[4, 3, 2, 5, 6, 5]
+[4, 3, 2, 5, 6]
+After removed duplicates: 
+[4, 3, 2, 5, 6]
 
 
 
