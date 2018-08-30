@@ -41,6 +41,18 @@ print(details['name'])
 print(details['address'])
 print(details["address"]["Street"])
 
+#Sorted Dict
+
+for key, value in sorted(mydict.items()):
+    print(key, value)
+
+Result:-
+age 28
+email raghavaguhan@gmail.com
+mobile 979181
+name Guhan
+
+
 #Sort by key
 
 print(sorted(details.keys()))
