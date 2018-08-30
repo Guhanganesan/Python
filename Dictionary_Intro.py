@@ -2,6 +2,10 @@ Python dictionary is an unordered collection of items.
 While other compound data types have only value as an element, a dictionary has a key: value pair.
 Dictionaries are optimized to retrieve values when the key is known.
 
+A dictionary is a collection which is unordered, changeable and indexed. 
+In Python dictionaries are written with curly brackets, and they have keys and values.
+
+
 #create dictionary
 details ={
            'name':"Guhan",
