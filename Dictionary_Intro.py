@@ -17,6 +17,14 @@ Dictionaries are unordered, so the order that the keys are added doesn't necessa
 
 
 #create dictionary
+
+mydict = dict(name="Guhan",age=28,mobile=979181,email="raghavaguhan@gmail.com")
+print(mydict)
+
+Result:-
+{'name': 'Guhan', 'age': 28, 'mobile': 979181, 'email': 'raghavaguhan@gmail.com'}
+
+
 details ={
            'name':"Guhan",
             'age':27,
