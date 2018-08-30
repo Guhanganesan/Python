@@ -5,6 +5,16 @@ Dictionaries are optimized to retrieve values when the key is known.
 A dictionary is a collection which is unordered, changeable and indexed. 
 In Python dictionaries are written with curly brackets, and they have keys and values.
 
+A dictionary is an associative array (also known as hashes). Any key of the dictionary is associated (or mapped) to a value. 
+The values of a dictionary can be any Python data type. 
+So dictionaries are unordered key-value-pairs. ... Dictionaries belong to the built-in mapping type.
+
+A dictionary maps a set of objects (keys) to another set of objects (values). 
+A Python dictionary is a mapping of unique keys to values. 
+Dictionaries are mutable, which means they can be changed. 
+The values that the keys point to can be any Python value. 
+Dictionaries are unordered, so the order that the keys are added doesn't necessarily reflect what order they may be reported back.
+
 
 #create dictionary
 details ={
