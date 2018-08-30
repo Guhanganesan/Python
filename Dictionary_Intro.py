@@ -52,6 +52,11 @@ email raghavaguhan@gmail.com
 mobile 979181
 name Guhan
 
+#update
+for value  in mydict.values():
+    if value==28:
+        mydict['age']=24
+
 
 #Sort by key
 
