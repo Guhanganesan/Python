@@ -16,7 +16,7 @@ for i in enumerate(t1):
 for i, j in enumerate(t1):
     print(i, j)
 
-for i, j in enumerate(t1, 5):
+for i, j in enumerate(t1, 5): # index start from 5
     print(i, j)
 
 t1=(2,5,3,1,4)
