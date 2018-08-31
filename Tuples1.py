@@ -8,7 +8,7 @@ print(t)
 # del t[0] does not support
 print(any(t1))
 print(enumerate(t1))
-print(list(enumerate(t1)))
+print(list(enumerate(t1))) #[(0, 1), (1, 2), (2, 3)]
 
 for i in enumerate(t1):
     print(i)
