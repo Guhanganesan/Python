@@ -14,6 +14,7 @@ A={1,2,3,4}
 B={2,4}
 
 print(A.issubset(B))
+print(A.issuperset(B))
 print(B.issubset(A))
 
 A={1,2,3,4}
@@ -41,6 +42,7 @@ Result:-
 {1, 4}
 {5, 7}
 False
+True
 True
 True
 1
