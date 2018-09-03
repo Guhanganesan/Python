@@ -13,10 +13,10 @@ theList = [1, 2, 3, 4, 2, 3, 1]
 theSet = set(theList)
 print(theSet)
 
-#cannot modify the tuple
+
 tuple = (1, 2, 3, 4, 2, 3, 1)
 theSet = set(tuple)
-print(tuple)
+print(theSet)
 print("#-----------------------------------")
 
 theSet = set()
@@ -42,7 +42,7 @@ Result:-
 {'c', 'd', 'a', 'b', 'f'}
 {1, 2, 3, 2.45, 'Python', (1, 2, 3)}
 {1, 2, 3, 4}
-(1, 2, 3, 4, 2, 3, 1)
+{1, 2, 3, 4}
 -----------------------------------
 {1, 2, 3}
 {1, 2, 3, 5, 7}
