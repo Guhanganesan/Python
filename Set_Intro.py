@@ -17,7 +17,7 @@ print(theSet)
 tuple = (1, 2, 3, 4, 2, 3, 1)
 theSet = set(tuple)
 print(tuple)
-print("-----------------------------------")
+print("#-----------------------------------")
 
 theSet = set()
 theSet.add(1)
