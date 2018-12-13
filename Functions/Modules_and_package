@@ -1,0 +1,55 @@
+#create a folder mypackage and create a file calc.py write a programs for add, sub, mul, div 
+#calc.py file consider as module 
+#from mypackage.calc import add
+from mypackage.calc import*
+import os
+res = add(10,20)
+print(res)
+
+res=sub(20,10)
+print(res)
+
+#print(dir(os))
+
+#https://docs.python.org/3/library/math.html
+
+import math
+
+res= math.factorial(5)
+print(res)
+
+"""
+ library is a collection of precompiled routines that a program can use. 
+ The routines, sometimes called modules, are stored in object format. 
+ Libraries are particularly useful for storing frequently used routines because 
+ you do not need to explicitly link them to every program that uses them. """
+
+#create a folder mylibdata and create calc.py file with add, sub, mul etc.. 
+#you can include this mylibdata as package in lib folder
+# or you can directly add module in lib that python has installed in your system
+#C:\Users\test\AppData\Local\Programs\Python\Python37\Lib
+
+import mylibdata.calc
+print(dir(mylibdata.calc))
+
+res = mylibdata.calc.add(50,25)
+print(res)
+
+# add add modules in library 
+
+import calc
+
+out=calc.mul(20,20)
+print(out)
+
+"""
+   calc.py:-
+   def add(x,y):
+        return x+y
+   def sub(x,y):
+        return x-y
+   def mul(x,y):
+        return x*y
+   def div(x,y):
+        return x//y
+"""
