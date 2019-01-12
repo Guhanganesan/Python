@@ -19,3 +19,18 @@ Given number is not prime
 Result:
 Enter a number23
 Given Number is  prime
+----------------------------------------------------------
+
+x=int(input("Enter Number"))
+count=2
+for i in range(2,x):
+    if x%i !=0:
+        count=count+1
+
+if count==x:
+    print("prime number")
+else:
+    print("not prime number")
+
+    
+    
