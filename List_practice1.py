@@ -1,3 +1,4 @@
+
 #List average
 def main():
     list=[]
@@ -23,7 +24,7 @@ Enter Number: 5: 16
 Avg:  14.0
 
     
-# List get even and ood values fro list
+# List get even and odd values fro list
 L=["Tamil","English","Maths","Science","Social"]
 length=len(L)
 Even=[]
@@ -185,39 +186,6 @@ Enter how many elements you want to remove3
 Enter starting index1
 ['Tamil', 'Social', 'Biology']
 
-#-----------------------------------------------------------------------
-#Check how many times repeates the duplicate values
-L=[1,3,2,3,4,2,5,3,6,3,7]
-length=len(L)
-add_arr=[]
-count_arr=[]
-count=0
-add_value=0
-for i in range(0,length):
-    for j in range(0,length):
-        if add_arr.__contains__(L[i])==False:
-            if L[i]==L[j]:
-                count=count+1
-        add_value=L[i]
-    add_arr.append(add_value)
-    count_arr.append(count)
-    count=0
-
-print(count_arr) #[1, 4, 2, 0, 1, 0, 1, 0, 1, 0, 1]
-print(add_arr)   #[1, 3, 2, 3, 4, 2, 5, 3, 6, 3, 7]
-
-great=0
-index=0
-for k in range(0,len(count_arr)):
-    if great<count_arr[k]:
-        great=count_arr[k]
-        index=k
-print(add_arr[index],"is ",great," times repeated ");
-
-Result:-
-[1, 4, 2, 0, 1, 0, 1, 0, 1, 0, 1]
-[1, 3, 2, 3, 4, 2, 5, 3, 6, 3, 7]
-3 is  4  times repeated 
 #-------------------------------------------------------------
 #To find second largest in a list
 L=[2,5,1,3,6,8,7,9,4]
@@ -241,21 +209,19 @@ Result:-
 
 #Remove Duplicates in a list
 
-L=[4,3,2,3,4,2,5,6,5]
-length=len(L) # if extra 1 duplicate at initial
-m=length
+L=[4,3,2,3,4,2,5,6,5,7,2,1,4,9,6]
+length=len(L) 
 i=0
 while(i<=length):
-    for j in range(i+1, m):
+    for j in range(i+1, length):
         if L[i] == L[j]:
              L.pop(j)
              i=i-1
-             #length = length - 1
-             m=m-1
+             length = length - 1
              print(L)
              break
     i=i+1
-print("After removed duplicates: ")
+print("Origial List: ")
 print(L)
 
 Result:
@@ -267,8 +233,20 @@ Result:
 After removed duplicates: 
 [4, 3, 2, 5, 6]
 
+#-----------------------------------------------------------
+#Remove Element
 
+L=[23,45,56,78,43]
+check=False
+element=int(input("Enter Element to Remove"))
+for i in range(0,len(L)):#0,5
+    if element==L[i]:
+        L.remove(element)
+        check=True
+        break
+if(check==False):
+    print("Not Found")      
 
-
+print(L)
 
 
